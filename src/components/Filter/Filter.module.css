@@ -1,0 +1,14 @@
+
+
+.filterLabel{
+  display: flex;
+  flex-direction: column;
+}
+
+.filterInput{
+  composes: input from '../../styles/input.css';
+}
+
+.title{
+  text-align: center;
+}
